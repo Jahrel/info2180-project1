@@ -27,8 +27,6 @@ header a:hover{
 }
 
 
-
-
 .overview-hero{
 
     background-color:#E2E8F0;
@@ -45,57 +43,43 @@ header a:hover{
 
 }
 
-/*.overview-hero-text{
 
-    padding-left: 40px;
+.learn-about{
 
+    width:55%;
+    margin:auto;
 
-}*/
-
-
-
-
-
-
-
-
-/* h1{
-    text-align: left;
-
-    margin-top: auto;
-    margin-bottom: auto;
-}
-ul{
-    list-style-type: none;
-    margin:0;
-    padding:0;
-    display: inline-block;
-    text-align: right;
-    display : flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-ul li{
-        text-align: right;
-       
-    
+.learn-about h2 , .learn-about h3{
+
+    color: #48BB78;
+}
+   
+
+.learn-about h3{
+
+    font-size: 21px;
 }
 
+.learn-about h2{
 
-* {
-    box-sizing: border-box;
- }
+    font-size: 24px;
+}
 
- .card-body{
-
-    float: left;
-    width: 33%; 
+.cards{
 
     display: grid;
- 
-    grid-gap: 10px;
-    border: 2px solid #E2E8F0;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 15px;
    
- } */
+} 
+
+.card{
+    
+    box-shadow: 3px 3px #6B7280;
+    border: 2px solid #E2E8F0;
+    border-radius: 5px;
+
+}
  
