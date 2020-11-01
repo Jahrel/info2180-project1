@@ -43,7 +43,6 @@ header a:hover{
 
 }
 
-
 .learn-about{
 
     width:55%;
@@ -73,6 +72,7 @@ header a:hover{
     grid-template-columns: 250px 250px 250px;
     grid-gap: 15px;
    
+   
 } 
 
 .card{
@@ -80,6 +80,69 @@ header a:hover{
     box-shadow: 3px 3px #6B7280;
     border: 2px solid #E2E8F0;
     border-radius: 5px;
+    padding-left: 25px;
+    padding-top: 15px;
 
 }
- 
+
+.testing{
+
+  
+    background-color: #4A5568;
+    margin-top:35px;
+
+
+
+}
+
+.testing .container{
+
+    display:flex;
+    margin:auto;
+    width :60%;
+    
+
+}
+
+
+.testing-desciption{
+
+
+    color: white;
+    padding-top: 100px;
+    padding-bottom:100px;
+
+}
+
+/*.cta{
+   
+   
+} */
+
+.testing-desciption p{
+
+    padding-right: 10%;
+}
+.cta a{
+
+    text-decoration:none;
+    text-transform: uppercase;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius:5px;
+    margin-left:25%;
+    color: white;
+    
+   
+}
+
+.btn{
+
+    background-color: #48BB78;
+    float:right;
+    margin-top:100px;
+    
+   
+}
