@@ -4,8 +4,99 @@ body {
     font-size: 16px;
 }
 
-.container {
+header div{
+    display:flex;
+
+}
+header ul{
+    list-style-type: none;
+    display:flex;
+    margin-left:40px; 
+    margin-top: 30px;
+}
+header a{
+    text-decoration: none;
+    margin-left :15px;
+    color: #6B7280;
+
+}
+
+header a:hover{
+    color: #5A67D8;
+}
+
+
+/*.container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+    align:left;
+  
+} */
+
+.
+/* h1{
+    text-align: left;
+
+    margin-top: auto;
+    margin-bottom: auto;
 }
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: inline-block;
+    text-align: right;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+        text-align: right;
+       
+    
+}
+
+.overview-hero-text{
+padding: 60px;
+text-align: center;
+background: #E2E8F0;
+padding: 1em;
+width: 800px;
+height: 200px;
+
+}
+
+.overview-hero-image{
+
+    height:170px;
+    width:170px;
+    border-radius:50%;
+    padding:20px; 
+
+}
+
+* {
+    box-sizing: border-box;
+ }
+
+ .card-body{
+
+    float: left;
+    width: 33%; 
+
+    display: grid;
+ 
+    grid-gap: 10px;
+    border: 2px solid #E2E8F0;
+   
+  
+ }
+
+.learn-about{
+    
+    font-size: 24px;
+    color: #48BB78;
+
+ } */
