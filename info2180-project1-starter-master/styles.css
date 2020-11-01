@@ -39,6 +39,7 @@ header a:hover{
 .overview-hero-image{
     float:left;
     padding-right:40px;
+    border-radius:5px;
     
 
 }
@@ -90,7 +91,8 @@ header a:hover{
   
     background-color: #4A5568;
     margin-top:35px;
-
+    padding-left:100px;
+    
 
 
 }
@@ -98,8 +100,11 @@ header a:hover{
 .testing .container{
 
     display:flex;
-    margin:auto;
-    width :60%;
+    margin: auto;
+    width:60%;
+    padding:10px;
+   
+    
     
 }
 
@@ -118,17 +123,23 @@ header a:hover{
 
     padding-right: 10%;
 }
+
+
+.cta{
+
+    margin:auto;
+    width:50%;
+}
 .cta a{
 
     text-decoration:none;
     text-transform: uppercase;
-    padding-top:15px;
-    padding-bottom:15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius:5px;
+    padding : 10px 20px 10px 20px;
     margin-left:25%;
     color: white;
+    border-radius:5px;
+    
+    
     
    
 }
@@ -136,9 +147,9 @@ header a:hover{
 .btn{
 
     background-color: #48BB78;
-    float:right;
+    float : right;
     margin-top:100px;
-    
+    margin-bottom:100px;
    
 }
 
@@ -183,3 +194,87 @@ article{
     font-size: 18px;
 
 }
+
+#email{
+
+
+    padding: 12px;
+    margin: 8px 0;
+    display : inline-block;
+    border:1px solid white;
+    border-radius :4px;
+    box-sizing : border-box;
+    margin-left:350px;
+    
+
+}
+
+.newsletter .container .btn{
+
+    background-color: #5A67D8;
+    color:white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border : none;
+    border-radius : 4px;
+    cursor: pointer;
+
+}
+
+form{
+
+    display:flex;
+    flex-flow: row wrap;
+    gap:5px;
+    /*justify-content:center;*/
+    /*align-items:center;*/
+}
+
+.newsletter{
+
+    background-color: #48BB78;
+    padding:50px 0;
+    /*text-align:center;*/
+    color:white;
+
+}
+
+.newsletter .container{
+
+    padding-left:10%;
+    padding-right:10%;
+
+    overflow-wrap: break-word;
+
+   
+
+
+}
+
+.newsletter p {
+
+
+    padding-right:5%;
+    margin-left :32%;
+    margin-right:30%;
+
+
+
+}
+
+.newsletter h3{
+
+    text-align:center;
+}
+
+
+
+
+footer{
+
+    background-color : #4A5568;
+    display:grid;
+    color : white;
+    padding-left:18%;
+}
+
