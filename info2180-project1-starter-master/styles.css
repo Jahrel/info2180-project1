@@ -101,7 +101,6 @@ header a:hover{
     margin:auto;
     width :60%;
     
-
 }
 
 
@@ -114,10 +113,6 @@ header a:hover{
 
 }
 
-/*.cta{
-   
-   
-} */
 
 .testing-desciption p{
 
@@ -145,4 +140,46 @@ header a:hover{
     margin-top:100px;
     
    
+}
+
+.stories img {
+
+    border-radius : 100%;
+    height:200px;
+    width:200px;
+    padding:20px;
+}
+
+article{
+
+
+    display:flex;
+    flex-direction:row;
+    gap:25px;
+}
+
+.stories .container{
+
+    padding:100px;
+    margin:auto;
+    width:60%
+}
+
+.article-body a{
+
+    text-decoration:none;
+    color:#5A67DB;
+    font-weight: bold;
+}
+
+.stories .container h2{
+
+    color:#5A67DB;
+
+}
+
+.container .article-body h3{
+
+    font-size: 18px;
+
 }
